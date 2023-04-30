@@ -2,12 +2,12 @@
 	"name": "bot-render",
 	"main":"./index.js",
 	"devDependencies": {
-		"dotenv":"^16.x"
+		"dotenv":"^16.0.3"
 	},
 	"dependencies": {
-		"discord.js":"^14.x"
+		"discord.js":"^14.9.0"
 	},
 	"engines": {
-		"node":"20.x"
+		"node":"19.x"
 	}
 }
