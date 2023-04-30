@@ -1,9 +1,9 @@
-const { Client, Intents } = require('discord.js');
+const { Client } = require('discord.js');
 
 require('dotenv').config();
 
-const intents = new Intents(8);
-const client = new Client({ intents });
+
+const client = new Client({ intents:[] });
 
 client.on('ready', (client) => {
     console.log(`${client.user.tag} is running...`);
